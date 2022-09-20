@@ -4,7 +4,7 @@ You are given an $m \times n$ grid ( $m$ rows and $n$ columns ). Let $c = \min \
 
 ### Task 1
 
-1. Verify that the given grid is valid (it contains values in $[1,c]$ that do not repeat and all other entries are $0$s).
+1. Verify that the given grid is valid (it contains values in $[1,c]$ that do not repeat and all other entries are $0$).
 2. Verify that the given grid is sorted.
 
 ### Task 2
