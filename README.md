@@ -28,6 +28,8 @@ A `Position` is an $(x, y)$ coordinate on the grid. A `Move` is a type that repr
 
 Your final task is to return a sequence of `Move`s that will sort a given grid.
 
+---
+
 >   Implement all the methods indicated with a `TODO` in the package `slidesort`.
 
 ## Grading
@@ -37,5 +39,6 @@ Your final task is to return a sequence of `Move`s that will sort a given grid.
 | Completing all three tasks | A |
 | Completing Tasks 1 and 2 | B |
 | Completing only Task 1 | C |
+| Not completing any task | F |
 
 Any task must be **completed fully** to get credit. Make sure you write additional tests. The provided tests are only to give you a sense that you are moving in the correct direction.
