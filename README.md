@@ -33,7 +33,7 @@ Your final task is to return a sequence of `Move`s that will sort a given grid.
 ## Grading
 
 | Tasks | Grade |
-| ----- | ----- |
+| ----- | :---: |
 | Completing all three tasks | A |
 | Completing Tasks 1 and 2 | B |
 | Completing only Task 1 | C |
