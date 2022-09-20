@@ -2,6 +2,8 @@
 
 You are given an $m \times n$ grid (the grid has $m$ rows and $n$ columns). Let $c = \min \\{m,n\\}$. The grid has some (or all of) the integers in $[1, c]$ (this is the set $\\{1, 2, \dots, c\\}$) occuring exactly once at different positions in the grid and all the other entries are $0$. Location $(i, j)$ in the grid (the $i$-th row, $j$-th column) is position number $(n \times i) + j$. The grid is sorted if and only if, for every two non-zero entries $x$ and $y$ such that $x < y$, the position at which $x$ appears is smaller than the position at which $y$ appears.
 
+>   Implement all the methods indicated with a `TODO` in the package `slidesort`.
+
 ### Task 1
 
 1. Verify that the given grid is valid (it contains values in $[1,c]$ that do not repeat and all other entries are $0$).
@@ -27,10 +29,6 @@ A `Position` is an $(x, y)$ coordinate on the grid. A `Move` is a type that repr
 ### Task 3
 
 Your final task is to return a sequence of `Move`s that will sort a given grid.
-
----
-
->   Implement all the methods indicated with a `TODO` in the package `slidesort`.
 
 ## Grading
 
