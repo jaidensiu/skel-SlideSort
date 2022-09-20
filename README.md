@@ -1,6 +1,6 @@
 ## Slide Sort
 
-You are given an $m \times n$ grid ( $m$ rows and $n$ columns ). Let $c = \min\{m,n\}$. The grid has some (or all of) the integers in $[1, c]$ (this is the set $\{1, 2, \dots, c\}$) occuring exactly once at different positions in the grid and all the other entries are $0$s. Location $(i, j)$ in the grid ($i$-th row, $j$-th column) is position number $(n \times i) + j$. The grid is sorted if and only if, for every two non-zero entries $x$ and $y$ such that $x < y$, the position at which $x$ appears is smaller than the position at which $y$ appears.
+You are given an $m \times n$ grid ( $m$ rows and $n$ columns ). Let $c = \min\{m,n\}$. The grid has some (or all of) the integers in $[1, c]$ (this is the set $\{1, 2, \dots, c\}$) occuring exactly once at different positions in the grid and all the other entries are $ 0 $s. Location $ (i, j) $ in the grid ( $i$-th row, $j$-th column ) is position number $ (n \times i) + j $. The grid is sorted if and only if, for every two non-zero entries $x$ and $y$ such that $x < y$, the position at which $x$ appears is smaller than the position at which $y$ appears.
 
 ### Task 1
 
