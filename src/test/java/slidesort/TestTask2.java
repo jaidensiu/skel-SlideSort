@@ -65,6 +65,8 @@ public class TestTask2 {
         Grid g = new Grid(seedArray);
         assertTrue(g.validMoves(moveList));
 
+        g.applyMoves(moveList);
+
         int[][] seedArray2 = {
             {0, 0, 2},
             {0, 0, 1}
