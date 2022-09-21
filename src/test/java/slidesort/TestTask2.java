@@ -106,27 +106,27 @@ public class TestTask2 {
 
 
         List<Move> moveList = Arrays.asList(
-            new Move(new Position(0, 0), false, -14),
-            new Move(new Position(0, 1), false, -9),
-            new Move(new Position(0, 2), false, -23),
-            new Move(new Position(0, 3), false, -24),
-            new Move(new Position(0, 4), false, -17),
-            new Move(new Position(0, 5), false, -12),
-            new Move(new Position(0, 6), false, -13),
+            new Move(new Position(0, 0), false, 14),
+            new Move(new Position(0, 1), false, 9),
+            new Move(new Position(0, 2), false, 23),
+            new Move(new Position(0, 3), false, 24),
+            new Move(new Position(0, 4), false, 17),
+            new Move(new Position(0, 5), false, 12),
+            new Move(new Position(0, 6), false, 13),
             new Move(new Position(0, 7), true, 0),
-            new Move(new Position(0, 8), false, -25),
-            new Move(new Position(0, 9), false, -18),
-            new Move(new Position(0, 10), false, -11),
-            new Move(new Position(0, 11), false, -3),
-            new Move(new Position(0, 12), false, -20),
-            new Move(new Position(0, 13), false, -1),
-            new Move(new Position(0, 14), false, -7),
-            new Move(new Position(0, 15), false, -19),
-            new Move(new Position(0, 16), false, -22),
-            new Move(new Position(0, 17), false, -21),
-            new Move(new Position(0, 18), false, -15),
-            new Move(new Position(0, 19), false, -5),
-            new Move(new Position(0, 20), false, -2)
+            new Move(new Position(0, 8), false, 25),
+            new Move(new Position(0, 9), false, 18),
+            new Move(new Position(0, 10), false, 11),
+            new Move(new Position(0, 11), false, 3),
+            new Move(new Position(0, 12), false, 20),
+            new Move(new Position(0, 13), false, 1),
+            new Move(new Position(0, 14), false, 7),
+            new Move(new Position(0, 15), false, 19),
+            new Move(new Position(0, 16), false, 22),
+            new Move(new Position(0, 17), false, 21),
+            new Move(new Position(0, 18), false, 15),
+            new Move(new Position(0, 19), false, 5),
+            new Move(new Position(0, 20), false, 2)
         );
 
         Grid g = new Grid(seedArray);
