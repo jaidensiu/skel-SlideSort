@@ -51,7 +51,7 @@ public class Grid {
     /**
      * Check if this grid is a valid grid.
      * A grid is valid if, for c = min(rows, cols),
-     * the grid contains all the values in [1, c]
+     * the grid contains zero or more values in [1, c]
      * exactly once and all other entries are 0s.
      *
      * @return true if this is a valid grid and false otherwise
